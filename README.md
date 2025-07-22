@@ -111,27 +111,4 @@ Similarity = cos(θ) = (V₁·V₂) / (||V₁|| * ||V₂||)
 
 ---
 
-## 📁 프로젝트 구조 예시
-
-```
-📦 mood-music-recommender
-├── README.md
-├── /models
-│   └── mood_regressor_cnn.pth
-├── /data
-│   ├── deap/
-│   ├── deam/
-│   └── fma/
-├── /scripts
-│   ├── regression_model.py
-│   └── recommender.py
-├── /images
-│   └── demo.gif
-└── /webapp
-    ├── app.py
-    └── templates/
-```
-
----
-
 > ⓒ DL Team 6 | 2025 | EEG 기반 실시간 감정 인식 음악 추천 프레임워크
